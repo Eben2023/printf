@@ -12,8 +12,8 @@ The length modifiers are l and h, which are used for converting to a long int or
 
 The conversion specifiers include d and i for signed decimal notation, o, u, x, and X for unsigned octal, decimal, and hexadecimal notation (with lowercase and uppercase letters), c for converting to an unsigned char, s for a string of characters, p for a void * pointer argument represented as a hexadecimal in lowercase, % for writing a % character, b for converting to a binary representation, and S for a string of characters with non-printable characters represented as \x followed by the corresponding hexadecimal value.
 
-Our _printf function can handle all these format specifiers and modifiers and is a custom solution that does not rely on any standard library files. We submitted this project as part of our ALX software engineering course and received a grade for it.
+This _printf function can handle all these format specifiers and modifiers and is a custom solution that does not rely on any standard library files. I submitted this project as part of my ALX software engineering course and received a grade for it.
 
-Authors
+Author
 
 Ebenezer Nyamekye
