@@ -1,4 +1,4 @@
-We created a customized printf function called _printf for the C programming language. Our goal was to have a function that could handle various inputs and optional arguments, similar to the standard library function printf, but with optimization that utilizes a local buffer of 1024 bytes for printing, even though it can process larger data sets.
+I created a customized printf function called _printf for the C programming language. My goal was to have a function that could handle various inputs and optional arguments, similar to the standard library function printf, but with optimization that utilizes a local buffer of 1024 bytes for printing, even though it can process larger data sets.
 
 When _printf runs successfully, it returns the total number of characters that have been printed to the standard output stream (except for the null byte at the end of strings). In the event of an output error, the function returns -1.
 
@@ -12,11 +12,9 @@ The length modifiers are l and h, which are used for converting to a long int or
 
 The conversion specifiers include d and i for signed decimal notation, o, u, x, and X for unsigned octal, decimal, and hexadecimal notation (with lowercase and uppercase letters), c for converting to an unsigned char, s for a string of characters, p for a void * pointer argument represented as a hexadecimal in lowercase, % for writing a % character, b for converting to a binary representation, and S for a string of characters with non-printable characters represented as \x followed by the corresponding hexadecimal value.
 
-This _printf function can handle all of these format specifiers and modifiers and is a custom solution that does not rely on any standard library files. We submitted this project as part of our ALX software engineering course and received a grade for it.
+This _printf function can handle all of these format specifiers and modifiers and is a custom solution that does not rely on any standard library files. I submitted this project as part of our ALX software engineering course and received a grade for it.
 
-Authors:
+Author:
 
 Ebenezer Nyamkye
-&
-Jeffrey Dedon
 
